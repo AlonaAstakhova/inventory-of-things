@@ -6,47 +6,143 @@
             "description": "A banana is an edible fruit – botanically a berry – produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains, distinguishing them from dessert banana",
             "photoUrl": "http://www.pngall.com/wp-content/uploads/2016/04/Banana-PNG.png",
             "country": "Ecuador",
-            "quantity": "35"
-            },
-            {
+            "quantity": 35,
+            "price": 1,
+            "size": "medium",
+            "rating": 4,
+            "taste": "sweet"
+        },
+        {
             "id": 2,
             "name": "Apple",
             "description": "An apple is a sweet, edible fruit produced by an apple tree. Apple trees are cultivated worldwide and are the most widely grown species in the genus Malus.",
             "photoUrl": "https://cdn.pixabay.com/photo/2013/08/22/20/32/apple-174861_960_720.jpg",
             "country": "United States",
-            "quantity": "23"
-            },
-            {
+            "quantity": 23,
+            "price": 3,
+            "size": "medium",
+            "rating": 3,
+            "taste": "sour"
+        },
+        {
             "id": 3,
             "name": "Peach",
             "description": "The peach is a deciduous tree native to the region of Northwest China between the Tarim Basin and the north slopes of the Kunlun Mountains, where it was first domesticated and cultivated. It bears an edible juicy fruit called a peach or a nectarine.",
             "photoUrl": "https://cdn.pixabay.com/photo/2010/12/13/10/06/food-2279_960_720.jpg",
             "country": "Spain",
-            "quantity":"20" 
-            },
-            {
+            "quantity": 20,
+            "price": 5,
+            "size": "large",
+            "rating": 5,
+            "taste": "sweet-sour"
+        },
+        {
             "id": 4,
             "name": "Strawberry",
             "description": "The fruit is widely appreciated for its characteristic aroma, bright red color, juicy texture, and sweetness.",
-            "photoUrl": "https://cdn.pixabay.com/photo/2016/03/05/19/11/strawberry-1238295_960_720.jpg",
+            "photoUrl": "https://cdn.pixabay.com/photo/2016/05/23/20/59/juicy-and-fresh-strawberries-1411197_960_720.jpg",
             "country": "Mexico",
-            "quantity": "18"
-            },
-            {
+            "quantity": 18,
+            "price": 3,
+            "size": "small",
+            "rating": 5,
+            "taste": "sweet"
+        },
+        {
             "id": 5,
             "name": "Pomegranate",
             "description": "The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America.",
             "photoUrl": "https://media.istockphoto.com/id/940118920/photo/ripe-pomegranate-fruit-and-one-cut-in-half-with-leaf.jpg?s=612x612&w=0&k=20&c=iVTrJvW6rtFTlsWk5J3v1r1NeCgNtZMD4qDJIh3sfik=",
             "country": "Canada",
-            "quantity": "14"
-            },
-            {
+            "quantity": 14,
+            "price": 7,
+            "size": "large",
+            "rating": 4,
+            "taste": "sweet-sour"
+        },
+        {
             "id": 6,
             "name": "Cherry",
             "description": "A cherry is the fruit of many plants of the genus Prunus, and is a fleshy drupe. Commercial cherries are obtained from cultivars of several species, such as the sweet Prunus avium and the sour Prunus cerasus.",
             "photoUrl": "https://cdn.pixabay.com/photo/2016/07/06/13/08/sweet-cherries-1500435_960_720.jpg",
             "country": "Turkiye",
-            "quantity": "32"
-            }
+            "quantity": 32,
+            "price": 7,
+            "size": "small",
+            "rating": 3,
+            "taste": "sour"
+        }, 
+        {
+            "id": 7,
+            "name": "Kiwi",
+            "description": "Good-quality kiwifruit will be fairly large and plump with thin 'fuzzy' brown skin. The flesh should be emerald green with tiny black edible seeds radiating from the center and have a mild, sweet flavor. Choose kiwifruit that is free of wrinkles.",
+            "photoUrl": "https://cdn.pixabay.com/photo/2013/01/08/01/20/kiwi-fruit-74273_960_720.jpg",
+            "country": "New Zealand",
+            "quantity": 48,
+            "price": 2,
+            "size": "medium",
+            "rating": 5,
+            "taste": "sweet"
+        },
+        {
+            "id": 8,
+            "name": "Pear",
+            "description": "Pear fruits are generally sweeter and of softer texture than apples and are distinguished by the presence of hard cells in the flesh, the so-called grit, or stone cells. In general, pear fruits are elongate, being narrow at the stem end and broader at the opposite end",
+            "photoUrl": "https://cdn.pixabay.com/photo/2010/12/13/10/06/food-2280_960_720.jpg",
+            "country": "India",
+            "quantity": 27,
+            "price": 4,
+            "size": "large",
+            "rating": 5,
+            "taste": "sweet"
+        },
+        {
+            "id": 9,
+            "name": "Grape",
+            "description": "Grapes are fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin. The pulp is juicy and sweet, and it contain several seeds or pips. It is a well-known fruit; it is eaten raw, although it is mainly used for making wine.",
+            "photoUrl": "https://cdn.pixabay.com/photo/2018/01/17/18/41/food-3088767_960_720.jpg",
+            "country": "Peru",
+            "quantity": 14,
+            "price": 3,
+            "size": "small",
+            "rating": 3,
+            "taste": "sweet-sour"
+        },
+        {
+            "id": 10,
+            "name": "Apricot",
+            "description": "Apricots are small, pitted fruit, about the size of a golf ball. They are similar in appearance to a small peach. They have a very light fuzz on the skin, are pale orange to deep saffron in color and often show a tinge of pink or red blush on the cheek. Apricots only ripen on the tree.",
+            "photoUrl": "https://cdn.pixabay.com/photo/2017/05/15/11/51/apricot-2314631_960_720.jpg",
+            "country": "Turkiye",
+            "quantity": 54,
+            "price": 8,
+            "size": "medium",
+            "rating": 4,
+            "taste": "sweet-sour"
+        },
+        {
+            "id": 11,
+            "name": "Melon",
+            "description": "Melons are rounded or elongate, of yellow or green rind, sometimes combined depending on the variety. It has an aromatic, juicy and sweet flesh, being an ideal fruit to fight thirst. The melon is a diuretic, depurative and slightly laxative fruit, reason why it is recommended to treat constipation.",
+            "photoUrl": "https://cdn.pixabay.com/photo/2017/05/15/11/49/melon-2314618_960_720.jpg",
+            "country": "Kazakhstan",
+            "quantity": 11,
+            "price": 3,
+            "size": "medium",
+            "rating": 5,
+            "taste": "sweet" 
+        },
+        {
+            "id": 12,
+            "name": "Pineapple",
+            "description": "A pineapple is a sweet tropical fruit with a tough leathery skin and spiky leaves on top. Pineapple is excellent, whether eaten as a snack, in a sweet dessert, in savory dishes like fried rice, or even on pizza.",
+            "photoUrl": "https://cdn.pixabay.com/photo/2020/04/29/12/47/pineapple-5108775_960_720.jpg",
+            "country": "Costa Rica",
+            "quantity": 31,
+            "price": 2,
+            "size": "large",
+            "rating": 5,
+            "taste": "sweet-sour"
+        }         
     ]
   }

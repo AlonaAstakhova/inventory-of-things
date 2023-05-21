@@ -1,11 +1,13 @@
-import React from 'react'
-import { Toolbar } from '@mui/material'
+import { FooterStyle, FooterStyledContainer } from './Footer.styled'
 
 function Footer() {
+
   return (
-      <Toolbar style={{ position: "static", backgroundColor: "#525252", height: "6vh", color: "while" }}>
-        <strong>&copy; 2022 All rights reserved</strong>
-      </Toolbar>
+    <FooterStyle>
+      <FooterStyledContainer>
+        <strong>&copy; {new Date().getFullYear()} All rights reserved</strong>
+      </FooterStyledContainer>
+    </FooterStyle>
   )
 }
 
