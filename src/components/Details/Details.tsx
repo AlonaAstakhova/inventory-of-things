@@ -7,7 +7,7 @@ function Details(props:any) {
 
   return (
      fruitDetails?.map((fruitDt: DetailsProps, key: number) => 
-    <Box p={2} sx={{ marginTop:'70px'}}>
+    <Box p={2} sx={{ marginTop:'70px'}} key={fruitDt.id}  >
       <Modal sx={{display:'flex', bgcolor:'#e6e6e6', alignItems:'center', justifyContent:'center'}}
         open={open}
         onClose={(e)=>setOpen(false)}
@@ -15,12 +15,12 @@ function Details(props:any) {
         aria-describedby="modal-modal-description"
       >   
         <Box sx={{ width: '100%', maxWidth: 600, height: '60%', maxHeight: 350}} bgcolor='white' p={3} borderRadius={2}> 
-          <Typography variant='h5' textAlign='center'>
+          <Typography variant='h5' textAlign='center' >
           {fruitDt.name}
           </Typography>
           <Divider />
             <nav aria-label="secondary mailbox folders">
-              <List>
+              <List >
                 <ListItem alignItems='flex-start'> 
                   <ListItemText primary='Description:' secondary={
                   <Typography sx={{ display: 'inline' }}
@@ -56,11 +56,10 @@ function Details(props:any) {
                   > {fruitDt.quantity}</Typography>}/>   
                 </ListItem>  
                 <Stack direction='row' justifyContent="flex-end">
-              <Button variant="contained" onClick={(e)=>setOpen(false)}> OK </Button>
+                  <Button variant="contained" onClick={(e)=>setOpen(false)}> OK </Button>
                </Stack>              
               </List>         
             </nav>
-
         </Box>
       </Modal>
     </Box>

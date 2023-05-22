@@ -4,10 +4,9 @@ export interface ItemProps {
     description: string
     photoUrl: string
     country: string
-    quantity: number
+    quantity: any
     price: number
     size: string
     rating: number
     taste: string
-    data: any
 }

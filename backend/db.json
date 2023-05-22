@@ -51,7 +51,7 @@
         {
             "id": 5,
             "name": "Pomegranate",
-            "description": "The tomato is the edible, often red, berry of the plant Solanum lycopersicum, commonly known as a tomato plant. The species originated in western South America and Central America.",
+            "description": "It has rounded fruit with a dry outer covering (husk) made up of two layers: (1) a hard-outer layer called an epicarp, (2) a soft inner layer called a mesocarp. The inner mesocarp has distinct chambers that contain fleshy seeds.",
             "photoUrl": "https://media.istockphoto.com/id/940118920/photo/ripe-pomegranate-fruit-and-one-cut-in-half-with-leaf.jpg?s=612x612&w=0&k=20&c=iVTrJvW6rtFTlsWk5J3v1r1NeCgNtZMD4qDJIh3sfik=",
             "country": "Canada",
             "quantity": 14,
@@ -98,7 +98,7 @@
         },
         {
             "id": 9,
-            "name": "Grape",
+            "name": "Grapes",
             "description": "Grapes are fleshy, rounded fruits that grow in clusters made up of many fruits of greenish, yellowish or purple skin. The pulp is juicy and sweet, and it contain several seeds or pips. It is a well-known fruit; it is eaten raw, although it is mainly used for making wine.",
             "photoUrl": "https://cdn.pixabay.com/photo/2018/01/17/18/41/food-3088767_960_720.jpg",
             "country": "Peru",

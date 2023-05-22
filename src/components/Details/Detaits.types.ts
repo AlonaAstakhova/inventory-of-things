@@ -9,5 +9,4 @@ export interface DetailsProps {
     size: string
     rating: number
     taste: string
-    data: any
 }
