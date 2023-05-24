@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/inventory-of-things/static/js/main.195814fe.js",
+    "main.js": "/inventory-of-things/static/js/main.5b385b0a.js",
     "static/media/inventoryLogo.jpeg": "/inventory-of-things/static/media/inventoryLogo.8e55f08dd61fa8e1a233.jpeg",
     "index.html": "/inventory-of-things/index.html",
-    "main.195814fe.js.map": "/inventory-of-things/static/js/main.195814fe.js.map"
+    "main.5b385b0a.js.map": "/inventory-of-things/static/js/main.5b385b0a.js.map"
   },
   "entrypoints": [
-    "static/js/main.195814fe.js"
+    "static/js/main.5b385b0a.js"
   ]
 }
