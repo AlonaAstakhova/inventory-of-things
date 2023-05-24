@@ -1,7 +1,7 @@
-import React from 'react'
+import React, {useState} from 'react'
 import emailjs from 'emailjs-com'
-import { Modal, Typography, Box, Button, Divider, Stack, TextField } from '@mui/material'
-
+import { Modal, Typography, Box, Divider, IconButton, Stack, TextField, Grid } from '@mui/material'
+import CloseIcon from '@mui/icons-material/Close';
 
 function Mailer (props:any) {
 
@@ -9,9 +9,9 @@ const {show, setShow, fruitName} = props
 
 const sendEmail = (e: any) => { 
   e.preventDefault()
-  emailjs.sendForm('service_rpal3n6', 'template_elu5moz', e.target, 'xSXepCcYH1QC3Efz4')
-         .then(res => {
-            console.log(res)
+  emailjs.sendForm('service_rpal3n6', 'template_elu5moz', e.target, process.env.REACT_APP_API_KEY)
+         .then(result => {
+            console.log(result)
          }).catch(error => console.log(error))
 }
 
@@ -23,9 +23,18 @@ const sendEmail = (e: any) => {
           aria-describedby="modal-modal-description"
         >   
         <Box sx={{ width: '100%', maxWidth: 600, height: '60%', maxHeight: 372}} bgcolor='white' p={3} borderRadius={2}> 
-          <Typography variant='h5' textAlign='center'>
-          Contact form
-          </Typography>
+        <Grid container >
+          <Grid item xs={11}>
+            <Typography variant='h5' textAlign='center'>
+              Contact form
+            </Typography>
+          </Grid>
+          <Grid item xs={1} alignContent='end'>
+            <IconButton aria-label="delete" size="small" onClick={(e)=>setShow(false)}>
+              <CloseIcon />
+            </IconButton>
+          </Grid>
+        </Grid>
           <Divider />
           <form onSubmit={sendEmail}>
             <TextField 
@@ -50,10 +59,10 @@ const sendEmail = (e: any) => {
               margin='normal'
               fullWidth
               rows={4}
-              defaultValue= {`The quantity of ${fruitName}s has reached 0! It is necessary to place an order for the delivery of goods!`}
+              defaultValue= {`The quantity of "${fruitName}" has reached 0! It is necessary to place an order for the delivery of goods!`}
             />
-            <Stack direction='row' justifyContent="flex-end">
-              <input type="submit" value="Send" onClick={()=>setShow(false)} className='form-control btn btn-primary' />
+            <Stack direction='row'>
+              <input type="submit" value="Send" className='form-control btn btn-primary' />
             </Stack>
           </form>
         </Box>

@@ -6,7 +6,6 @@ import { FruitProps } from './FruitsList.types'
 import { FruitsListStyle } from './FruitsList.styled'
 import Details from '../Details/Details'
 
-
 export default function FruitsList() {
 
   const [fruits, setFruits] = useState([])
@@ -32,7 +31,7 @@ export default function FruitsList() {
     }
     setFruitDetails([fruitDetails, addFruit])
   }
-  
+
   useEffect(() => {
     fetchFruits()
   },[])

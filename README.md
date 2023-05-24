@@ -1,10 +1,36 @@
-# Getting Started with Create React App
+# Inventory of things
+![Screenshoot](https://drive.google.com/file/d/1Gv764QilKKek4-9KAio65hwFuDYgSxty/view?usp=sharing)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## API #1: [EmailJS](https://www.emailjs.com)
+![Screenshoot](https://drive.google.com/file/d/1H0jdwl_yDAQMPiwOBEpUqAmSjhYkFOOY/view?usp=sharing)
 
-## Available Scripts
+![Screenshoot](https://drive.google.com/file/d/1GpQGaozWP8rEFTchP4kEYVc0FyhVPcgQ/view?usp=sharing)
 
-In the project directory, you can run:
+## API #2: [TheMealDB](https://www.themealdb.com/api.php)
+![Screenshoot](https://drive.google.com/file/d/1GovR6oWPoMAw4sQ2hx05AyzxWUWJqiZI/view?usp=sharing)
+
+## The following tech stack:
+Name | Description
+| :---- | :---|
+React |  A JavaScript library for building user interfaces
+Typescript |  A strongly typed programming language that builds on JavaScript, giving you better tooling at any scale. 
+Styled-components | A library built for React and React Native developers. It allows you to use component-level styles in your applications. Styled-components leverage a mixture of JavaScript and CSS using a technique called CSS-in-JS.
+Axios | A HTTP client library based on promises. It makes sending asynchronous HTTP requests to REST endpoints easier.
+
+# Getting Started 
+
+## BackEnd Scripts
+
+1. In the project directory in folder 'backend, you should run:
+
+### `json-server --watch db.json --port 5000`
+
+2. Open new Terminal's window and run FrontEnd Scripts
+
+
+## FrontEnd Scripts
+
+ In the project directory, you can run:
 
 ### `npm start`
 
@@ -44,3 +70,24 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+## 🧐 What's inside?
+
+A quick look at the top-level files and directories you'll see in a current project.
+
+    .
+    ├── node_modules
+    ├── src
+    ├── .gitignore
+    ├── package.json
+    └── README.md
+
+1. **`/node_modules`**: This directory contains all of the modules of code that your project depends on (npm packages) are automatically installed.
+
+2. **`/src`**: This directory will contain all of the code related to what you will see on the front-end of your site (what you see in the browser) such as your site header or a page template. `src` is a convention for “source code”.
+
+3. **`.gitignore`**: This file tells git which files it should not track / not maintain a version history for.
+
+4. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
+
+5. **`README.md`**: A text file containing useful reference information about your project.

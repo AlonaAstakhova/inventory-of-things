@@ -7,7 +7,7 @@ function Details(props:any) {
 
   return (
      fruitDetails?.map((fruitDt: DetailsProps, key: number) => 
-    <Box p={2} sx={{ marginTop:'70px'}} key={fruitDt.id}  >
+    <Box p={2} sx={{ marginTop:'70px'}} key={key}  >
       <Modal sx={{display:'flex', bgcolor:'#e6e6e6', alignItems:'center', justifyContent:'center'}}
         open={open}
         onClose={(e)=>setOpen(false)}
