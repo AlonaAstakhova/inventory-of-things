@@ -1,13 +1,13 @@
 # Inventory of things
-![Screenshoot](https://drive.google.com/file/d/1Gv764QilKKek4-9KAio65hwFuDYgSxty/view?usp=sharing)
+![Screenshoot](https://drive.google.com/uc?export=view&id=1Gv764QilKKek4-9KAio65hwFuDYgSxty)
 
 ## API #1: [EmailJS](https://www.emailjs.com)
-![Screenshoot](https://drive.google.com/file/d/1H0jdwl_yDAQMPiwOBEpUqAmSjhYkFOOY/view?usp=sharing)
+![Screenshoot](https://drive.google.com/uc?export=view&id=1H0jdwl_yDAQMPiwOBEpUqAmSjhYkFOOY)
 
-![Screenshoot](https://drive.google.com/file/d/1GpQGaozWP8rEFTchP4kEYVc0FyhVPcgQ/view?usp=sharing)
+![Screenshoot](https://drive.google.com/uc?export=view&id=1GpQGaozWP8rEFTchP4kEYVc0FyhVPcgQ)
 
 ## API #2: [TheMealDB](https://www.themealdb.com/api.php)
-![Screenshoot](https://drive.google.com/file/d/1GovR6oWPoMAw4sQ2hx05AyzxWUWJqiZI/view?usp=sharing)
+![Screenshoot](https://drive.google.com/uc?export=view&id=1GovR6oWPoMAw4sQ2hx05AyzxWUWJqiZI)
 
 ## The following tech stack:
 Name | Description
